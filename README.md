@@ -43,7 +43,7 @@ This project demonstrates how to communicate between a Vue 3 frontend and ROS (R
 
 1. Clone this repository and navigate to the project directory:
     ```bash
-    git clone https://github.com/jjhhyyg/ros-vue-demo
+    git clone https://github.com/jjhhyyg/ros-vue-demo.git
     cd ros-vue-demo
     ```
 

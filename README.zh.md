@@ -43,7 +43,7 @@
 
 1. 克隆这个仓库并进入项目目录：
     ```bash
-    git clone https://github.com/jjhhyyg/ros-vue-demo
+    git clone https://github.com/jjhhyyg/ros-vue-demo.git
     cd ros-vue-demo
     ```
 
