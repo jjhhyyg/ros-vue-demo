@@ -18,44 +18,53 @@
 
 1. 安装 ROS Noetic 并配置环境。
 2. 安装 `rosbridge_suite`：
-    ```bash
-    sudo apt-get install ros-noetic-rosbridge-server
-    ```
+
+   ```bash
+   sudo apt-get install ros-noetic-rosbridge-server
+   ```
+
 3. 安装 TurtleBot3 模拟包：
-    ```bash
-    sudo apt-get install ros-noetic-turtlebot3-simulations
-    ```
+
+   ```bash
+   sudo apt-get install ros-noetic-turtlebot3-simulations
+   ```
 
 ### 启动 ROS 和仿真环境
 
 1. 启动 rosbridge 服务器（这会自动启动 `roscore`）：
-    ```bash
-    roslaunch rosbridge_server rosbridge_websocket.launch
-    ```
+
+   ```bash
+   roslaunch rosbridge_server rosbridge_websocket.launch
+   ```
 
 2. 启动 Gazebo 仿真环境：
-    ```bash
-    export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_gazebo turtlebot3_world.launch
-    ```
+
+   ```bash
+   export TURTLEBOT3_MODEL=burger
+   roslaunch turtlebot3_gazebo turtlebot3_world.launch
+   ```
 
 ### 启动前端项目
 
 1. 克隆这个仓库并进入项目目录：
-    ```bash
-    git clone https://github.com/jjhhyyg/ros-vue-demo.git
-    cd ros-vue-demo
-    ```
+
+   ```bash
+   git clone https://github.com/jjhhyyg/ros-vue-demo.git
+   cd ros-vue-demo
+   ```
 
 2. 安装依赖：
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. 启动 Vue 开发服务器：
-    ```bash
-    npm run dev
-    ```
+
+   ````bash
+
+   ```npm run dev
+   ````
 
 ### 控制机器人
 

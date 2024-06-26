@@ -18,44 +18,52 @@ This project demonstrates how to communicate between a Vue 3 frontend and ROS (R
 
 1. Install ROS Noetic and set up the environment.
 2. Install `rosbridge_suite`:
-    ```bash
-    sudo apt-get install ros-noetic-rosbridge-server
-    ```
+
+   ```bash
+   sudo apt-get install ros-noetic-rosbridge-server
+   ```
+
 3. Install TurtleBot3 simulation package:
-    ```bash
-    sudo apt-get install ros-noetic-turtlebot3-simulations
-    ```
+
+   ```bash
+   sudo apt-get install ros-noetic-turtlebot3-simulations
+   ```
 
 ### Start ROS and Simulation Environment
 
 1. Start the rosbridge server (this will automatically start `roscore`):
-    ```bash
-    roslaunch rosbridge_server rosbridge_websocket.launch
-    ```
+
+   ```bash
+   roslaunch rosbridge_server rosbridge_websocket.launch
+   ```
 
 2. Start the Gazebo simulation environment:
-    ```bash
-    export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_gazebo turtlebot3_world.launch
-    ```
+
+   ```bash
+   export TURTLEBOT3_MODEL=burger
+   roslaunch turtlebot3_gazebo turtlebot3_world.launch
+   ```
 
 ### Start the Frontend Project
 
 1. Clone this repository and navigate to the project directory:
-    ```bash
-    git clone https://github.com/jjhhyyg/ros-vue-demo.git
-    cd ros-vue-demo
-    ```
+
+   ```bash
+   git clone https://github.com/jjhhyyg/ros-vue-demo.git
+   cd ros-vue-demo
+   ```
 
 2. Install dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. Start the Vue development server:
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 ### Control the Robot
 
